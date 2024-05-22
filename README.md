@@ -1,31 +1,22 @@
-# diskcrypt
+# DiskCrypt
 
-Recursive disk encryptor for Windows, Linux, MacOS
+A recursive disk encryptor for Windows, Linux, and macOS.
 
 ## Installation
 
-Firstly, clone the repository or download the latest release:
+Clone the repository or download the latest release:
 
-```
+```sh
 git clone https://github.com/fkcyber/diskcrypt
 ```
-
-Then install the requirements using PIP:
+Install the requirements using pip:
 
 ```
 pip install -r requirements.txt
 ```
-
 ## Usage
-
-Run in quiet mode:
-
 ```
 python3 main.py -q -p password123 -s salt123
 ```
+`-q` is optional for quiet mode
 
-Run without quiet mode:
-
-```
-python3 main.py -p password123 -s salt123
-```
