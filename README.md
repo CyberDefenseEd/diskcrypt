@@ -1,6 +1,6 @@
 # DiskCrypt
 
-A recursive disk encryptor for Windows, Linux, and macOS.
+Recursive disk encryption for Windows, Linux, and macOS.
 
 ## Installation
 
